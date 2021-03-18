@@ -13,9 +13,32 @@ interface Task {
 export function TaskList() {
   const [tasks, setTasks] = useState<Task[]>([]);
   const [newTaskTitle, setNewTaskTitle] = useState('');
+  const [error, setError] = useState('');
 
   function handleCreateNewTask() {
-    // Crie uma nova task com um id random, não permita criar caso o título seja vazio.
+    if (!newTaskTitle) {
+      showError('Task title is required!')
+      return
+    }
+
+    const newTask = {
+      id: Math.random(),
+      title: newTaskTitle,
+      isComplete: false
+    }
+
+    console.log(newTask);
+
+    setTasks([...tasks, newTask]);
+    setNewTaskTitle('');
+
+  }
+
+  function showError(message: string) {
+    setError(message);
+      setTimeout(() => {
+        setError('');
+      }, 2500)
   }
 
   function handleToggleTaskCompletion(id: number) {
@@ -41,7 +64,10 @@ export function TaskList() {
           <button type="submit" data-testid="add-task-button" onClick={handleCreateNewTask}>
             <FiCheckSquare size={16} color="#fff"/>
           </button>
+
+          {error.length > 0 && <span>{error}</span> }
         </div>
+       
       </header>
 
       <main>
