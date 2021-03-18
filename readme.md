@@ -1,13 +1,11 @@
 <h1 align="center">
-<img src="./.docs/logo.png" />
+<img src="./.docs/logo.png" width="300"/>
 </h1>
 
 <p align="center">
-  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-como-executar">Como executar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-saiba-mais">Saiba mais</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-licença">Licença</a>
+  <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-license">License</a>
 </p>
 
 <p align="center">
@@ -28,7 +26,7 @@ This project was developed with the following technologies:
 
 To.do is a tasks management application with basic features, and it is possible to add, remove and mark tasks as completed.
 
-## 📄 Licença
+## 📄 License
 
 This project is under the MIT license. See the file [LICENSE](LICENSE.md) for more details.
 
