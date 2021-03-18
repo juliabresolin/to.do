@@ -1,5 +1,5 @@
 <h1 align="center">
-<img src="./docs/logo.png" />
+<img src="./.docs/logo.png" />
 </h1>
 
 <p align="center">
@@ -34,4 +34,4 @@ This project is under the MIT license. See the file [LICENSE](LICENSE.md) for mo
 
 ---
 
-Made with love ♥ by Julia Bresolin :heart:
+Made with love ♥ by Julia Bresolin
